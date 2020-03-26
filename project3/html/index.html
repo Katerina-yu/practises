@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!--react-->
+    <script src="https://cdn.staticfile.org/react/16.4.0/umd/react.development.js"></script>
+    <script src="https://cdn.staticfile.org/react-dom/16.4.0/umd/react-dom.development.js"></script>
+    <script src="https://cdn.staticfile.org/babel-standalone/6.26.0/babel.min.js"></script>
+    <!--props验证-->
+    <script src="https://cdn.bootcss.com/prop-types/15.6.1/prop-types.js"></script>
+
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    <div id="example"></div>
+    
+    <script type="text/babel">
+    const ana = ['立了秋，把扇去',
+    '二八月，乱穿衣','夏雨少，秋霜早',
+    '八月里来雁门开，雁儿脚上带霜来',
+    '一场秋雨一场寒，十场秋雨要穿棉',
+    '八月暖，九月温，十月还有小阳春'];
+    const listItems = ana.map((ana)=><li>{ana}</li>);
+    ReactDOM.render(
+        <ul className="ulstyle">{listItems}</ul>,
+        document.getElementById("example")
+    );
+    </script>
+</body>
+</html>

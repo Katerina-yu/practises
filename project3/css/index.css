@@ -1,0 +1,19 @@
+button{
+    height: 40px;
+    width: 200px;
+}
+
+.warning {
+    background-color: red;
+    text-align: center;
+    width: 100%;
+    padding: 10px;
+    font-size: 2em;
+    color: white;
+}
+
+.ulstyle {
+    list-style-image: url('../picture/love.png');
+    font-family: cursive;
+    color: darkgoldenrod;
+}
