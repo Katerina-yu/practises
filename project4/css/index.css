@@ -1,0 +1,55 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+.input_num {
+    position: absolute;
+    width: 200px;
+    height: 60px;
+    top: 200px;
+    left: 500px;
+}
+
+.button_left {
+    position: relative;
+    float: left;
+    margin: auto;
+    padding: 0;
+    width: 30%;
+    line-height: 20px;
+    vertical-align: middle;
+    height: 60px;
+    border: 1px solid pink;
+    border-top-left-radius: 15%;
+    border-bottom-left-radius: 15%;
+    background-color: pink;
+    font-size: 3em;
+    
+}
+
+.button_right {
+    position: relative;
+    float: right;
+    margin: auto;
+    padding: 0;
+    width: 30%;
+    height: 100%;
+    border: 1px solid pink;
+    border-top-right-radius: 15%;
+    border-bottom-right-radius: 15%;
+    background-color: pink;
+    font-size: 2em;
+}
+
+.span {
+    position: absolute;
+    background-color: #ffcccc;
+    text-align: center;
+    line-height: 60px;
+    vertical-align: middle;
+    height: 60px;    
+    width: 40%;
+    font-size: 1.5em;
+}
+
