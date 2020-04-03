@@ -1,0 +1,60 @@
+
+
+/*背景*/
+#bgimg{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    min-width: 1000px;
+    z-index:-10;
+    zoom: 1;
+    background-color: pink;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+    overflow: scroll;
+}
+
+.center {
+    position: relative;
+    background-color: whitesmoke;
+    width: 310px;
+    height: 510px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;        
+}
+
+.img { 
+    position: relative;
+    text-align: center;
+    top: 2px;
+    margin: 0;
+    padding: 0;
+}
+
+.left {
+    position: absolute;
+    text-decoration: none;
+    top: 200px;
+    left: 10px;
+}
+
+
+.right {
+    position: absolute;
+    text-decoration: none;
+    top: 200px;
+    right: 10px;
+}
+
+.title {
+    margin: 10px;
+    padding: 0;
+    font-family: 仿宋;
+    color: lightcoral;
+}

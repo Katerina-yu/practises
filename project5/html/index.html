@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上周最佳搭配展示</title>
+
+    <link rel="stylesheet" href="../css/index.css">
+</head>
+<body>
+    
+    <div id="mask">
+        <div id="bgimg"></div>
+        <div class="center">
+            <!--图片-->
+            <img :src="imgArr[index]" class="img"/>
+            <!--左箭头-->
+            <a href="javascript:void(0)" v-show="index>0" @click="prev" class="left">
+                <img src="../picture/prev.png" />
+            </a>
+            <!--右箭头-->
+            <a href="javascript:void(0)" v-show="index<imgArr.length-1" @click="next" class="right">
+                <img src="../picture/next.png" />
+            </a>
+            <!--标题-->
+            <h2 class="title">上周最佳搭配展示</h2>
+
+        </div>
+    </div>
+    
+    
+    <!--vue-->
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    
+    
+    <script src="../js/index.js"></script>
+</body>
+</html>
