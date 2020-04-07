@@ -1,0 +1,206 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    background-color: #CDCDCD;
+    overflow: auto;
+}
+
+.header {
+    height: 50px;
+    background: #333;
+}
+
+.header .box .content {
+    width: 700px;
+    padding: 0 10px;
+    /*表示上下边界为0，左右则根据宽度自适应相同值（即居中）*/
+    margin: 0 auto;
+}
+
+
+
+.header input {
+    position: relative;
+    left: 7%;
+    width: 60%;
+    height: 24px;
+    margin-top: 12px;
+    /*首行缩进10px*/
+    text-indent: 10px;
+    /*圆角边框*/
+    border-radius: 5px;
+    /*盒子阴影 inset内阴影
+    raga(红色成分，绿色成分，蓝色成分，透明度)
+    box-shadow: h-shadow v-shadow blur spread color inset;
+    h-shadow:必需,水平阴影的位置。允许负值。
+    v-shadow:必需,垂直阴影的位置。允许负值。
+    blur:可选,模糊距离。
+    spread:可选,阴影的尺寸。
+    color:可选,阴影的颜色。
+    inset:可选,将外部阴影 (outset) 改为内部阴影。
+    */
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.24),0 1px 6px rgba(0,0, 0, 0.45) inset;
+    border: none;
+}
+
+.header button {
+    float: right;
+    width: 10%;
+    height: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+input:focus {
+    /*选中输入框  轮廓的宽度为0*/
+    outline-width: 0;
+}
+
+.content_h2 {
+    /*生成相对定位的元素，相对于其正常位置进行定位*/
+    position: relative;
+}
+
+span {
+    /*生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。*/
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    /*设置行内块 有宽高*/
+    display: inline-block;
+    padding: 0 5px;
+    height: 20px;
+    border-radius: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #666;
+    font-size: 1em;
+}
+
+ul {
+     padding: 0;
+     /*清除ol和ul标签的默认样式*/
+     list-style: none;
+}
+
+.li {
+     height: 32px;
+     line-height: 32px;
+     background: #fff;
+     position: relative;
+     /*下外边距*/
+     margin-bottom: 10px;
+     padding: 0 5px;
+     border-radius: 3px;
+     border-left: 5px solid #629A9C;
+     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+.li:hover {
+    height: 33px;
+    line-height: 32px;
+    background-color: darkgray;
+    color: white;
+    position: relative;
+    /*下外边距*/
+    margin-bottom: 10px;
+    padding: 0 5px;
+    border-radius: 3px;
+    border-left: 5px solid #629A9C;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.07);
+}
+
+
+
+
+.li_img_flag {
+    position: relative;
+    margin: 0 20px 0 0; 
+    padding: 0;
+    float: left;
+    top: 1.5px;
+    cursor: pointer;
+}
+
+
+
+.li_img_delete {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: right;
+    top: 2.5px;
+    content: url(../picture/remove.png);
+}
+
+.li_img_delete:hover {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    float: right;
+    top: 1px;
+    content: url(../picture/remove_hover.png);
+    cursor: pointer;
+}
+
+
+/*任务单选框*/
+li input {
+    position: absolute;
+    top: 2px;
+    left: 10px;
+    width: 22px;
+    height: 22px;
+    cursor: pointer;
+}
+
+
+ul li {
+    border-left: 5px solid #999;
+    opacity: 0.5;
+}
+
+/*勾选按钮*/
+li a {
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    display: inline-block;
+    width: 14px;
+    height: 12px;
+    border-radius: 14px;
+    border: 6px double #FFF;
+    background: #CCC;
+    line-height: 14px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+
+.footer {
+    text-align: center;
+    font-family: 隶书;
+    font-size: 1.3em;
+    
+}
+
+
+
+.footer img {
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    content: url(../picture/clear.png);
+}
+
+.footer p {
+    margin: 0;
+    padding: 0;
+    color: grey;
+    cursor: default;
+}
+
