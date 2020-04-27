@@ -49,7 +49,7 @@ var app = new Vue({
         },
 
         clear : function() {
-            if(confirm("点击确定将删除您记录的所有内容")) {
+            if(confirm("点击确定将删除您记录的所有内容！")) {
                 this.undoList = [];
                 this.doneList = [];
             } else {
