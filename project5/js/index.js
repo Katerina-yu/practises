@@ -13,6 +13,7 @@ var app = new Vue({
         prev : function() {
             this.index--;
         },
+        
         next : function() {
             this.index++;
         }

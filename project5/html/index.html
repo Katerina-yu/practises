@@ -14,20 +14,22 @@
         <div class="center">
             <!--图片-->
             <img :src="imgArr[index]" class="img"/>
+
             <!--左箭头-->
             <a href="javascript:void(0)" v-show="index>0" @click="prev" class="left">
                 <img src="../picture/prev.png" />
             </a>
+
             <!--右箭头-->
             <a href="javascript:void(0)" v-show="index<imgArr.length-1" @click="next" class="right">
                 <img src="../picture/next.png" />
             </a>
+
             <!--标题-->
             <h2 class="title">上周最佳搭配展示</h2>
 
         </div>
     </div>
-    
     
     <!--vue-->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
