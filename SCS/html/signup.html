@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!--JQuery-->
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+
+    <!--Validate-->
+    <script src="https://static.runoob.com/assets/jquery-validation-1.14.0/lib/jquery.js"></script>
+    <script src="https://static.runoob.com/assets/jquery-validation-1.14.0/dist/jquery.validate.min.js"></script>
+    <!--中文信息提示包-->
+    <script src="https://static.runoob.com/assets/jquery-validation-1.14.0/dist/localization/messages_zh.js"></script>
+
+
+    <title>用户注册</title>
+
+    <link rel="stylesheet" href="../css/signup.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--背景-->
+        <div id="bgimg"></div>
+        <!--标题-->
+        <div>
+            <h1 class="h1_font">企业SCS系统</h1>
+            <h2 class="h2_font">用户注册</h2>
+        </div>
+        <!--表单-->
+        <div class="register">
+            <form class="cmxform" id="signupForm" method="get" action="">
+                <div>
+                    <p class="center">
+                        <lable for="username"></lable>
+                        <input id="username" class="input" name="username" placeholder="用户名" type="text">
+                    </p>
+                    <p class="center">
+                        <label for="password"> </label>
+                        <input id="password" class="input" name="password" placeholder="密码" type="password">
+                    </p>
+                    <p class="center">
+                        <label for="confirm_password"></label>
+                        <input id="confirm_password" class="input" name="confirm_password" placeholder="确认密码" type="password">
+                    </p>
+                    <p class="center">
+                        <label for="email"></label>
+                        <input id="email" class="input" name="email" placeholder="电子邮箱" type="email">
+                    </p>
+                    <p class="center">
+                        <label><input type="checkbox" class="checkbox" id="agree" name="agree">我已阅读并同意</label>
+                        <a class="a_decoration" href="new.html">《用户协议》</a>
+                    </p>
+                    <p class="center">
+                        <input class="submit" type="submit"  value="注册">
+                    </p>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+
+
+    <script src="../js/signup.js"></script>
+</body>
+</html>

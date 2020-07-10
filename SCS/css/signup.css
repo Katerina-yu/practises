@@ -1,0 +1,246 @@
+
+/*标题*/
+.h1_font{
+    text-align: center;
+    color: black;
+    font-size: 7em;
+    font-family: 隶书;
+    font-weight: bold;
+    margin: 40px 0 0 0;
+    padding: 0;
+    top: 0;
+}
+.h2_font{
+    text-align: center;
+    color: black;
+    font-size: 4.5em;
+    font-family: 隶书;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+/*背景*/
+#bgimg{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    height:100%;
+    min-width: 1000px;
+    z-index:-10;
+    zoom: 1;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-position: center 0;
+    background-image: url(../picture/bg1.jpg);
+}
+
+/*错误提示*/
+.error{
+    color: red;
+}
+
+
+.center{
+    text-align: center;
+}
+
+.input{
+    width: 260px;
+    height: 30px;
+}
+/*主要内容*/
+.register{
+    width: 350px;
+    height: 420px;
+    color: black;
+    position: absolute; /*相对定位或绝对定位均可*/
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+
+.a_decoration{
+    text-decoration: none;
+    color: #3867d6;
+}
+
+.submit{
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+/*小于1200时*/
+@media (max-width: 1250px) {
+    /*图片*/
+    .img_logo{
+        width: 250px;
+        height:250px;
+        text-align: center;
+    }
+    /*标题*/
+    .h1_font{
+        text-align: center;
+        color: black;
+        font-size: 6em;
+        font-family: 隶书;
+        font-weight: bold;
+        margin: 40px 0 0 0;
+        padding: 0;
+        top: 0;
+    }
+    .h2_font{
+        text-align: center;
+        color: black;
+        font-size: 4em;
+        font-family: 隶书;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    /*主要内容*/
+.register{
+    width: 100%;
+    height: 420px;
+    color: black;
+    position: absolute; /*相对定位或绝对定位均可*/
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+}
+
+/*小于930时*/
+@media (max-width: 930px) {
+    /*图片*/
+    .img_logo{
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    /*标题*/
+    .h1_font{
+        text-align: center;
+        color: black;
+        font-size: 6em;
+        font-family: 隶书;
+        font-weight: bold;
+        margin: 40px 0 0 0;
+        padding: 0;
+        top: 0;
+    }
+    .h2_font{
+        text-align: center;
+        color: black;
+        font-size: 4em;
+        font-family: 隶书;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    /**/
+/*主要内容*/
+.register{
+    width: 100%;
+    height: 420px;
+    color: black;
+    position: absolute; /*相对定位或绝对定位均可*/
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+}
+
+/*小于750时*/
+@media (max-width: 750px) {
+    /*图片*/
+    .img_logo{
+        width: 180px;
+        height: 180px;
+        text-align: center;
+    }
+    /*标题*/
+    .h1_font{
+        text-align: center;
+        color: black;
+        font-size: 6em;
+        font-family: 隶书;
+        font-weight: bold;
+        margin: 40px 0 0 0;
+        padding: 0;
+        top: 0;
+    }
+    .h2_font{
+        text-align: center;
+        color: black;
+        font-size: 4em;
+        font-family: 隶书;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+/*主要内容*/
+.register{
+    width: 100%;
+    height: 420px;
+    color: black;
+    position: absolute; /*相对定位或绝对定位均可*/
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+}
+/*小于600时*/
+@media (max-width: 600px) {
+    /*图片*/
+    .img_logo{
+        width: 180px;
+        height: 180px;
+        text-align: center;
+    }
+    /*标题*/
+    .h1_font{
+        text-align: center;
+        color: black;
+        font-size: 5em;
+        font-family: 隶书;
+        font-weight: bold;
+        margin: 40px 0 0 0;
+        padding: 0;
+        top: 0;
+    }
+    .h2_font{
+        text-align: center;
+        color: black;
+        font-size: 3em;
+        font-family: 隶书;
+        font-weight: bold;
+        margin: 0;
+    }
+/*主要内容*/
+.register{
+    width: 100%;
+    height: 420px;
+    color: black;
+    position: absolute; /*相对定位或绝对定位均可*/
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    padding: 0;
+}
+}
